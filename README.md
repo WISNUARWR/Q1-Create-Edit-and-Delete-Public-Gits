@@ -27,7 +27,7 @@ Scenario Testing:
 16'CLOSE BROWSER'
 ```
 
-### Script Create a new gist
+### Script Create a new gist (KATALON STUDIO AUTOMATION SCRIPT)
 ```
 'OPEN BROWSER'
 WebUI.openBrowser('')
@@ -97,7 +97,7 @@ WebUI.closeBrowser()
 15.'CLOSE BROWSER'
 ```
 
-### Script Edit gist existing
+### Script Edit gist existing (KATALON STUDIO AUTOMATION SCRIPT)
 ```
 'OPEN BROWSER'
 WebUI.openBrowser('')
@@ -162,7 +162,7 @@ WebUI.closeBrowser()
 11.'DELAY 4 SECOND FOR VIEW UPDATE LIST GIST EXISTING'
 12.'CLOSE BROWSER'
 ```
-### Script Delete gist existing
+### Script Delete gist existing (KATALON STUDIO AUTOMATION SCRIPT)
 ```
 
 'OPEN BROWSER'
