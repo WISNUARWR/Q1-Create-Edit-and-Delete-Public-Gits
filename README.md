@@ -148,22 +148,59 @@ WebUI.delay(2)
 WebUI.closeBrowser()
 ```
 ## DELETE Public Gist Existing
-````
+```
+1.'OPEN BROWSER'
+2.'NAVIGATE TO WEB PAGE'
+3.'MAXIMIZE WINDOW WEB PAGE'
+4.'CLICK SIGIN BUTTON'
+5.'INPUT TEXT USERNAME'
+6.'INPUT PASSWORD'
+7.'CLICK BUTTON SIGNIN FOR COMMIT USERNAME AND PASSWORD'
+8.'CLICK GITS EXISTING TO DELETE'
+9.'CLICK BUTTON DELETE FOR DELETE GITS EXISTING'
+10.'ACCEPT ALERT FOR COMMIT POPUP'
+11.'DELAY 4 SECOND FOR VIEW UPDATE LIST GIST EXISTING'
+12.'CLOSE BROWSER'
+```
+### Script Delete gist existing
+```
+
 'OPEN BROWSER'
+WebUI.openBrowser('')
+
 'NAVIGATE TO WEB PAGE'
+WebUI.navigateToUrl('https://gist.github.com/WISNUARWR')
+
 'MAXIMIZE WINDOW WEB PAGE'
+WebUI.maximizeWindow()
+
 'CLICK SIGIN BUTTON'
+WebUI.click(findTestObject('DELETE EXISTING GIST/Page_WISNUARWR/a_Signin'))
+
 'INPUT TEXT USERNAME'
+WebUI.setText(findTestObject('DELETE EXISTING GIST/Page_Sign in/input_Username or email address_login'), 'WISNUARWR')
+
 'INPUT PASSWORD'
+WebUI.setText(findTestObject('DELETE EXISTING GIST/Page_Sign in/input_Password_password'), 'War12122014')
+
 'CLICK BUTTON SIGNIN FOR COMMIT USERNAME AND PASSWORD'
+WebUI.click(findTestObject('DELETE EXISTING GIST/Page_Sign in/input_Password_commit'))
+
 'CLICK GITS EXISTING TO DELETE'
+WebUI.click(findTestObject('DELETE EXISTING GIST/Page_CLICK existing gist/strong_EDIT Q1 CERMATI TEST-EDIT PUBLIC GIST'))
+
 'CLICK BUTTON DELETE FOR DELETE GITS EXISTING'
+WebUI.click(findTestObject('DELETE EXISTING GIST/Page_CLICK button delete/button_Delete'))
+
 'ACCEPT ALERT FOR COMMIT POPUP'
+WebUI.acceptAlert()
+
 'DELAY 4 SECOND FOR VIEW UPDATE LIST GIST EXISTING'
+WebUI.delay(4)
+
 'CLOSE BROWSER'
-````
-
-
+WebUI.closeBrowser()
+```
 
 
 
