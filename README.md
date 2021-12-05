@@ -80,8 +80,7 @@ WebUI.closeBrowser()
 ```
 
 ## EDIT Public Gist Existing
-
-
+```
 1.'OPEN BROWSER'
 2.'NAVIGATE TO WEB PAGE'
 3.'MAXIMIZE WINDOW WEB PAGE'
@@ -97,6 +96,7 @@ WebUI.closeBrowser()
 13.'CLICK BUTTON UPDATE PUBLIC GIST FOR COMMIT'
 14.'DELAY 2 SECOND'
 15.'CLOSE BROWSER'
+```
 
 ### Script Edit gist existing
 ```
