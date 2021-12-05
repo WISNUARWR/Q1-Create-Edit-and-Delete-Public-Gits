@@ -45,7 +45,7 @@ WebUI.click(findTestObject('CREATE A NEW GIST/Page_WISNUARWR/a_Signin'))
 WebUI.setText(findTestObject('CREATE A NEW GIST/Page_Sign in/input_Username or email address_login'), 'WISNUARWR')
 
 'INPUT PASSWORD'
-WebUI.setText(findTestObject('CREATE A NEW GIST/Page_Sign in input username and password/input_Password_password'), 'War12122014')
+WebUI.setText(findTestObject('CREATE A NEW GIST/Page_Sign in input username and password/input_Password_password'), 'Www5432167890')
 
 'CLICK BUTTON SIGNIN FOR COMMIT USERNAME AND PASSWORD'
 WebUI.click(findTestObject('CREATE A NEW GIST/Page_Sign in input username and password/input_Password_commit'))
@@ -115,7 +115,7 @@ WebUI.click(findTestObject('EDIT EXISTING GIST/Page_WISNUARWR/a_Signin'))
 WebUI.setText(findTestObject('EDIT EXISTING GIST/Page_Sign in/input_Username or email address_login'), 'WISNUARWR')
 
 'INPUT PASSWORD'
-WebUI.setText(findTestObject('EDIT EXISTING GIST/Page_Sign in/input_Password_password'), 'War12122014')
+WebUI.setText(findTestObject('EDIT EXISTING GIST/Page_Sign in/input_Password_password'), 'Www5432167890')
 
 'CLICK BUTTON SIGNIN FOR COMMIT USERNAME AND PASSWORD'
 WebUI.click(findTestObject('EDIT EXISTING GIST/Page_Sign in/input_Password_commit'))
@@ -181,7 +181,7 @@ WebUI.click(findTestObject('DELETE EXISTING GIST/Page_WISNUARWR/a_Signin'))
 WebUI.setText(findTestObject('DELETE EXISTING GIST/Page_Sign in/input_Username or email address_login'), 'WISNUARWR')
 
 'INPUT PASSWORD'
-WebUI.setText(findTestObject('DELETE EXISTING GIST/Page_Sign in/input_Password_password'), 'War12122014')
+WebUI.setText(findTestObject('DELETE EXISTING GIST/Page_Sign in/input_Password_password'), 'Www5432167890')
 
 'CLICK BUTTON SIGNIN FOR COMMIT USERNAME AND PASSWORD'
 WebUI.click(findTestObject('DELETE EXISTING GIST/Page_Sign in/input_Password_commit'))
