@@ -29,8 +29,8 @@ End to End (e2e) Step:
 
 
 ### Script Create a new gist
-
-OPEN BROWSER
+```
+'OPEN BROWSER'
 WebUI.openBrowser('')
 
 'NAVIGATE TO WEB PAGE'
@@ -77,7 +77,7 @@ WebUI.delay(2)
 
 'CLOSE BROWSER'
 WebUI.closeBrowser()
-
+```
 
 ## EDIT Public Gist Existing
 
