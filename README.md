@@ -5,8 +5,7 @@ Scenario Testing:
 •	As a user, I want to edit an existing gist.
 •	As a user, I want to delete an existing gist.
 
-End to End (e2e) Step:
-
+## End to End (e2e) Step:
 
 ## CREATE a New Public Gist
 ```
