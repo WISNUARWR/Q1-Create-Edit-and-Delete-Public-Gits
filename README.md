@@ -99,8 +99,7 @@ WebUI.closeBrowser()
 15.'CLOSE BROWSER'
 
 ### Script Edit gist existing
-
-
+```
 'OPEN BROWSER'
 WebUI.openBrowser('')
 
@@ -148,6 +147,7 @@ WebUI.delay(2)
 
 'CLOSE BROWSER'
 WebUI.closeBrowser()
+```
 
 
 
