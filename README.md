@@ -9,7 +9,7 @@ End to End (e2e) Step:
 
 
 ## CREATE a New Public Gist
-
+```
 1.'OPEN BROWSER'
 2.'NAVIGATE TO WEB PAGE'
 3.'MAXIMIZE WINDOW WEB PAGE'
@@ -26,7 +26,7 @@ End to End (e2e) Step:
 14.'CLICK BUTTON CREATE PUBLIC GIST FOR COMMIT CREATE PUBLIC GIST'
 15.'DELAY 2 SECOND'
 16'CLOSE BROWSER'
-
+```
 
 ### Script Create a new gist
 ```
